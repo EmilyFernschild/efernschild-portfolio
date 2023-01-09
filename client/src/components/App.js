@@ -1,10 +1,18 @@
-
+import Header from './Header';
+import Skills from './Skills';
+import Demo from './Demo';
+import Footer from './Footer';
+import About from './About';
 
 function App() {
   
   return (
     <div className="App">
-      <h1>Page Count: </h1>
+      <Header/>
+      <About/>
+      <Skills/>
+      <Demo/>
+      <Footer/>
     </div>
   );
 }
