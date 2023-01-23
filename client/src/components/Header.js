@@ -7,17 +7,17 @@ function Header(){
                 <a href='/'>
                     <img src='' alt='logo-img'/>
                 </a>
-                <ul> 
-                    <li>
+                <ul className="header-links"> 
+                    <li className='link-li'>
                         <a href='/'>Home</a>
                     </li>   
-                    <li>
+                    <li className='link-li'>
                         <a href='#about'>About</a>
                     </li>   
-                    <li>
+                    <li className='link-li'>
                         <a href='#skills'>Skills</a>
                     </li>   
-                    <li>
+                    <li className='link-li'>
                         <a href='#demo'>Demos</a>
                     </li>   
                 </ul>

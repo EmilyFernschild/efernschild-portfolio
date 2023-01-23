@@ -11,6 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header-links{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-inline:40px;
+  list-style-type: none;
+}
+.link-li{
+  margin: 20px;
+}
 .skills{
   display: flex;
   flex-direction: row;
