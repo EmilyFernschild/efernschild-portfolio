@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-evenly;
+  padding-inline: 50px;
+}
+.skills-logo {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  max-width: 100px;
+  min-width: 100px;
+  max-height: auto;
+  min-height: auto;
+}
+.skill-name{
+  text-align: center;
+}
