@@ -15,8 +15,9 @@ function App() {
           <img className='portrait' src={portrait} alt="portrait"></img>
         </div>
         <div className='intro-words'>
-          <h2>Emily Fernschild</h2>
-          <h4>Software Engineer</h4>
+          <h2> Hello, I'm</h2>
+          <h1 className='name'>Emily Fernschild</h1>
+          <h3>I am a Software Engineer</h3>
         </div>
       </div>
       <About/>
