@@ -1,11 +1,11 @@
-
+import logo from './images/ef_logo.png';
 
 function Header(){
     return(
-        <div>
+        <div className='header'>
             <nav>
                 <a href='/'>
-                    <img src='' alt='logo-img'/>
+                    <img className='logo' src={logo} alt='logo-img'/>
                 </a>
                 <ul className="header-links"> 
                     <li className='link-li'>
@@ -19,6 +19,9 @@ function Header(){
                     </li>   
                     <li className='link-li'>
                         <a href='#demo'>Demos</a>
+                    </li>   
+                    <li className='link-li'>
+                        <a href='#footer'>Contact</a>
                     </li>   
                 </ul>
             </nav>

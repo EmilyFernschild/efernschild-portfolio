@@ -1,15 +1,41 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Ubuntu';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: grey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.header{
+  background-color: rgba(255, 255, 255, 0.662);
+}
+.logo{
+  width: 50px;
+  padding: 15px;
+}
+.intro{
+  display:flex;
+  flex-direction: row;
+}
+.intro-words{
+  padding-top: 18%;
+  padding-left: 14%;
+  font-size: larger;
+  flex-direction: column;
+}
+.portrait-container{
+  position: relative;
+  overflow: hidden;
+}
+.portrait{
+  width: 700px;
+  height: 650px;
+  object-fit: cover; 
+  border-radius: 50%; 
 }
 .header-links{
   display: flex;
@@ -18,8 +44,16 @@ code {
   padding-inline:40px;
   list-style-type: none;
 }
-.link-li{
-  margin: 20px;
+.link-li, a:link, a:visited{
+  margin: 10px;
+  font-size: 16pt;
+  color:grey;
+  font-weight: bold;
+  letter-spacing: 1pt;
+  text-decoration: none;
+}
+a:hover{
+  color:lightgrey;
 }
 .skills{
   display: flex;
