@@ -15,10 +15,10 @@ function Header(){
                         <a href='#about'>About</a>
                     </li>   
                     <li className='link-li'>
-                        <a href='#skills'>Skills</a>
+                        <a href='#demo'>Demos</a>
                     </li>   
                     <li className='link-li'>
-                        <a href='#demo'>Demos</a>
+                        <a href='#skills'>Skills</a>
                     </li>   
                     <li className='link-li'>
                         <a href='#footer'>Contact</a>

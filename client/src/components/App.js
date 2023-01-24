@@ -15,14 +15,14 @@ function App() {
           <img className='portrait' src={portrait} alt="portrait"></img>
         </div>
         <div className='intro-words'>
-          <h2> Hello, I'm</h2>
+          <h2 className='hello'> hello, <br/><span className='name-intro'>my name is</span></h2>
           <h1 className='name'>Emily Fernschild</h1>
-          <h3>I am a Software Engineer</h3>
+          <h3>I'm a Software Engineer</h3>
         </div>
       </div>
       <About/>
-      <Skills/>
       <Demo/>
+      <Skills/>
       <Footer/>
     </div>
   );

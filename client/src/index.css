@@ -10,6 +10,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .header{
   /* background-color: rgb(167,83,122,0.4); */
 }
@@ -22,7 +23,7 @@ code {
   flex-direction: row;
   max-width: 100px;
   max-height: fit-content;
-  padding-top: 2%;
+  padding: 2%;
   padding-left: 8%;
 }
 .intro-words{
@@ -34,6 +35,18 @@ code {
 .name{
   font-size: 78px;
   margin: 0;
+}
+.name-intro{
+  font-family: 'WindSong', cursive;
+  margin: 0;
+  font-size: 28pt;
+}
+.hello{
+  text-transform: lowercase;
+  font-size: 35pt;
+  margin: 0;
+  font-weight: 5%;
+  font-family: 'ubuntu';
 }
 .portrait-container{
   position: relative;
@@ -63,6 +76,34 @@ code {
 }
 a:hover{
   color:lightgrey;
+}
+.about-container{
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  color: rgba(0, 0, 0, 0.934);
+  background-color: rgb(167,83,122,0.4);
+  font-size: 14pt;
+  padding-left: 10%;
+}
+.abt-head-container{
+  max-width: 300px;
+  padding-left: 250px;
+  padding-right: 50px;
+}
+.about-header{
+  text-align: center;
+  font-family:'Bodoni Moda', serif;
+}
+.about-me{
+  text-align: left;
+  max-width: 550px;
+  margin-top: -2%;
+}
+.span{
+  font-size: 32pt;
+  font-family: 'WindSong', cursive;
+  padding-right: 10px;
 }
 .skills{
   display: flex;
