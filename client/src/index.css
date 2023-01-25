@@ -1,3 +1,9 @@
+:root{
+  --green: rgb(130, 150, 75);
+  --brown: rgb(101, 83, 59);
+}
+
+
 body {
   margin: 0;
   font-family: 'Ubuntu';
@@ -23,8 +29,9 @@ code {
   flex-direction: row;
   max-width: 100px;
   max-height: fit-content;
-  padding: 2%;
+  padding: 6rem;
   padding-left: 8%;
+  padding-bottom: 12rem;
 }
 .intro-words{
   padding-top: 140%;
@@ -75,12 +82,13 @@ code {
   text-transform: lowercase;
 }
 a:hover{
-  color:lightgrey;
+  color:var(--green);
 }
 .about-container{
   display: flex;
   flex-direction: row;
-  padding: 100px;
+  padding: 140px;
+  padding-block: 14rem;
   color: rgba(0, 0, 0, 0.934);
   background-color: rgb(167,83,122,0.4);
   font-size: 14pt;
@@ -126,4 +134,45 @@ a:hover{
 }
 .skill-name{
   text-align: center;
+}
+.demos{
+  display: flex;
+  flex-direction: row;
+}
+.demo{
+  flex-direction: column;
+  margin-left: 300px;
+  margin-block: 200px;
+  max-width: 600px;
+}
+.demo-intro,
+.more-demo{
+  font-size: 18pt;
+  color:var(--green);
+  font-weight: bold;
+  letter-spacing: 1pt;
+  text-decoration: none;
+  text-transform: lowercase;
+  text-align: center;
+  padding: 1rem;
+  padding-top: 4.4rem;
+}
+.demo-intro{
+  font-size: 30pt !important;
+  max-width: 100%;
+  padding-inline: 400px;
+  float: right;
+  margin: 0;
+}
+.more-demo{
+  font-weight: 400;
+  float: left;
+  margin-left: 3rem;
+  margin-block: -4.5rem;
+}
+.carousel{
+  flex-direction: column;
+  background-color: var(--green);
+  padding-inline: 80rem;
+  padding-block: 18rem;;
 }
