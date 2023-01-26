@@ -113,6 +113,12 @@ a:hover{
   font-family: 'WindSong', cursive;
   padding-right: 10px;
 }
+.skills-container{
+  padding-block: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-block: 20px;
+}
 .skills{
   display: flex;
   flex-direction: row;
@@ -121,19 +127,38 @@ a:hover{
   justify-content: space-evenly;
   align-items: center;
   align-content: space-evenly;
-  padding-inline: 50px;
+  padding-inline: 435px;
+  max-width: 1000px;
+  max-height: 800px;
+  background-image: url("./components/images/paper.webp");
+  background-repeat: no-repeat;
+  background-size: 48%;
+  background-position-x: 25rem;
+  background-position-y: -0.1rem;
+  padding-block: 68px;
 }
 .skills-logo {
   display: flex;
   flex-direction: row;
-  margin: 50px;
-  max-width: 100px;
-  min-width: 100px;
+  margin: 38px;
+  max-width: 85px;
+  min-width: 85px;
+  padding-top: 8px;
   max-height: auto;
   min-height: auto;
 }
+.skills-title{
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 30pt;
+  text-transform: lowercase;
+  color: rgba(178, 104, 138, 0.7);
+}
 .skill-name{
   text-align: center;
+  padding-top: 0px;
+  margin: 0;
 }
 .demos{
   display: flex;

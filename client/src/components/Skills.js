@@ -14,8 +14,8 @@ import npm from './images/npm.png';
 
 function Skills(){
     return(
-        <div id='skills'>
-        <h2>Skills: </h2>
+        <div className="skills-container" id='skills'>
+        <h2 className='skills-title'>Skills. </h2>
         <div className='skills' >
             <div className='skill-1'>
                 <img className='skills-logo' src={react} alt='pic'></img>
