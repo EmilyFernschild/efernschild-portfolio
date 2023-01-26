@@ -63,7 +63,7 @@ function Skills(){
             </div>
             <div className='skill-12'>
                 <img className='skills-logo' src={npm} alt='pic'></img>
-                <h4 className='skill-name'> npm</h4>
+                <h4 className='skill-name'> NPM</h4>
             </div>
         </div>
         </div>
