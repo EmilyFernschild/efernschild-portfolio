@@ -1,6 +1,7 @@
 :root{
   --green: rgb(130, 150, 75);
   --brown: rgb(101, 83, 59);
+  --pink:  rgb(167,83,122,0.4);
 }
 
 
@@ -17,9 +18,6 @@ code {
     monospace;
 }
 
-.header{
-  /* background-color: rgb(167,83,122,0.4); */
-}
 .logo{
   width: 50px;
   padding: 15px;
@@ -96,7 +94,7 @@ a:hover{
 }
 .abt-head-container{
   max-width: 300px;
-  padding-left: 250px;
+  padding-left: 310px;
   padding-right: 50px;
 }
 .about-header{
@@ -133,12 +131,13 @@ a:hover{
   max-height: 800px;
   background-image: url("./components/images/paper.webp");
   background-repeat: no-repeat;
-  background-size: 48%;
-  background-position-x: 25rem;
-  background-position-y: -0.2rem;
-  padding-block: 68px;
+  background-size: 47.5%;
+  background-position-x: 26.5rem;
+  background-position-y: -0.5rem;
+  padding-block: 72px;
 }
 .skills-logo {
+  opacity: 0.88;
   display: flex;
   flex-direction: row;
   margin: 38px;
@@ -149,12 +148,12 @@ a:hover{
   min-height: auto;
 }
 .skills-logo:hover{
-  opacity: 0.8;
+  opacity: 1;
   transition: 0.3s;
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 .skills-title{
-  text-indent: 46rem;
+  text-indent: 48rem;
   margin-top: 3rem;
   font-size: 30pt;
   text-transform: lowercase;
@@ -172,7 +171,7 @@ a:hover{
 }
 .demo{
   flex-direction: column;
-  margin-left: 300px;
+  margin-left: 230px;
   margin-block: 200px;
   max-width: 600px;
 }
@@ -206,4 +205,41 @@ a:hover{
   background-color: var(--green);
   padding-inline: 80rem;
   padding-block: 18rem;;
+}
+/* footer */
+.contact{
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: var(--pink);
+}
+.contact-text{
+  text-align: center;
+  padding-left: 8rem;
+  margin: 0%;
+  color:rgb(50, 50, 50);
+}
+.contact-me{
+  font-size: 30pt;
+  font-family: 'WindSong', cursive;
+  margin: 0%;
+}
+.email{
+  margin:0%;
+}
+.contact-links{
+  flex-direction: row;
+  padding-right: 5rem;
+}
+.contact-logo{
+  max-width: 3rem;
+  padding-right: 2rem;
+}
+.contact-logo:hover{
+  opacity: 0.8;
+  transition: 0.3s;
+  transform: scale(1.08);
 }
