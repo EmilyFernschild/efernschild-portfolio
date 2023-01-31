@@ -107,9 +107,9 @@ a:hover{
   margin-top: -2%;
 }
 .span{
-  font-size: 32pt;
+  font-size: 44pt;
   font-family: 'WindSong', cursive;
-  padding-right: 10px;
+  padding-right: 8px;
 }
 .skills-container{
   padding-block: 20px;
@@ -153,9 +153,9 @@ a:hover{
   transform: scale(1.1);
 }
 .skills-title{
-  text-indent: 48rem;
+  text-indent: 47rem;
   margin-top: 3rem;
-  font-size: 30pt;
+  font-size: 40pt;
   text-transform: lowercase;
   color: rgba(178, 104, 138, 0.7);
   position: absolute;
@@ -188,9 +188,9 @@ a:hover{
   padding-top: 4.4rem;
 }
 .demo-intro{
-  font-size: 30pt !important;
+  font-size: 40pt !important;
   max-width: 100%;
-  padding-inline: 400px;
+  padding-inline: 374px;
   float: right;
   margin: 0;
 }
@@ -202,13 +202,29 @@ a:hover{
 }
 .carousel{
   flex-direction: column;
+  /* display: block; */
   background-color: var(--green);
-  padding-inline: 80rem;
-  padding-block: 18rem;;
+  padding: 1rem;
+}
+.carousel.carousel-slider{
+  max-width: 80% !important;
+}
+.carousel .control-dots{
+  margin-bottom: 1rem !important;
+  padding-right: 2rem !important;
+}
+.carousel .thumbs-wrapper{
+  text-align: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-right: 15rem !important;
+}
+.legend{
+  margin-bottom: -2rem !important;
 }
 /* footer */
 .contact{
-  padding-block: 2rem;
+  padding-block: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -223,7 +239,7 @@ a:hover{
   color:rgb(50, 50, 50);
 }
 .contact-me{
-  font-size: 30pt;
+  font-size: 40pt;
   font-family: 'WindSong', cursive;
   margin: 0%;
 }
@@ -232,11 +248,11 @@ a:hover{
 }
 .contact-links{
   flex-direction: row;
-  padding-right: 5rem;
+  padding-right: 4.5rem;
 }
 .contact-logo{
-  max-width: 3rem;
-  padding-right: 2rem;
+  max-width: 3.2rem;
+  padding-right: 2.5rem;
 }
 .contact-logo:hover{
   opacity: 0.8;
