@@ -67,12 +67,19 @@ code {
   border-radius: 50%; 
 }
 .header{
-  padding-bottom: 3.5rem;
   position: sticky;
   top: 0;
+ 
+}
+.navbar-fix{
+  background-color: transparent;
+  transition: ease-in-out;
+}
+.navbar{ 
+  padding-bottom: 3.5rem;
   transition: opacity .2s ease-in-out;
-  background-color: white;
-  box-shadow: rgba(0,0,0,.05) 0 3px 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0,0,0,.05) 0 3px 15px; 
 }
 .header-links{
   display: flex;
@@ -217,6 +224,7 @@ a:hover{
   /* display: block; */
   background-color: var(--green);
   padding: 1rem;
+  z-index: -1;
 }
 .carousel.carousel-slider{
   /* max-width: 80% !important; */
