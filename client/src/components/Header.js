@@ -2,9 +2,8 @@ import logo from './images/ef_logo.png';
 
 function Header(){
     return(
-        <div className='header-container'>
-            <div className='header'>
-            <nav>
+        <header className='header'>
+            <nav className='navbar'>
                 <a href='/'>
                     <img className='logo' src={logo} alt='logo-img'/>
                 </a>
@@ -26,8 +25,7 @@ function Header(){
                     </li>   
                 </ul>
             </nav>
-            </div>
-        </div>
+        </header>
     )
 }
 
