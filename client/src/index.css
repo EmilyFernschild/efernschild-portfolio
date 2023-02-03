@@ -26,12 +26,12 @@ code {
   float: left;
 }
 .intro{
-  display:flex;
+  display: flex;
   flex-direction: row;
   max-width: 100px;
   max-height: fit-content;
   padding: 6rem;
-  padding-left: 8%;
+  padding-left: 5rem;
   padding-bottom: 12rem;
 }
 .intro-words{
@@ -69,17 +69,17 @@ code {
 .header{
   position: sticky;
   top: 0;
- 
 }
 .navbar-fix{
+  padding-bottom: 3.5rem;
   background-color: transparent;
   transition: ease-in-out;
 }
 .navbar{ 
   padding-bottom: 3.5rem;
   transition: opacity .2s ease-in-out;
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: rgba(0,0,0,.05) 0 3px 15px; 
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: rgba(0,0,0,.05) 0 3px 15px;
 }
 .header-links{
   display: flex;
@@ -87,6 +87,9 @@ code {
   float: right;
   /* padding-inline:40px; */
   list-style-type: none;
+}
+.link-li a{
+  padding-inline: 0.5rem;
 }
 .link-li, a:link, a:visited{
   margin: 10px;
@@ -97,7 +100,7 @@ code {
   text-decoration: none;
   text-transform: lowercase;
 }
-a:hover{
+.link-li a:hover{
   color:var(--green);
   transition: .2s ease-in-out;
 }
