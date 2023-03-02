@@ -232,10 +232,11 @@ code {
 }
 #inlineFrameExample {
   width: 100%;
+  max-width: 890px;
   margin-left: 1rem;
 }
 .carousel.carousel-slider{
-  max-width: 100% !important;
+  max-width: 900px !important;
 }
 .carousel .control-dots{
   margin-bottom: 2rem !important;
@@ -286,4 +287,11 @@ code {
   opacity: 0.8;
   transition: 0.3s;
   transform: scale(1.08);
+}
+#dev{
+  max-width: 3.1rem;
+  opacity: 0.8;
+}
+#dev:hover{
+  opacity: 0.6;
 }

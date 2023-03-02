@@ -2,6 +2,7 @@ import React from 'react';
 import linkedin from './images/Linkedin.png';
 import resume from './images/resume.png';
 import github from './images/github.png';
+import dev from './images/devlogo.png';
 
 function Footer() {
   return (
@@ -17,8 +18,11 @@ function Footer() {
         <a href='https://github.com/EmilyFernschild'>
           <img className='contact-logo' src={github} alt='github'/>
         </a>
+        <a href='https://dev.to/emilyfernschild'>
+          <img className='contact-logo' id='dev' src={dev} alt='blog'/>
+        </a>
         {/* replace when resume done */}
-        <a href='/'>
+        <a href='https://docs.google.com/document/d/1rXTmuq1IzS_YdQo68_BuS34OluqSgxjgdzu0Wvpomfw/edit'>
           <img className='contact-logo' src={resume} alt='resume'/>
         </a>
       </div>

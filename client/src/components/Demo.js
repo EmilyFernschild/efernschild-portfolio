@@ -14,13 +14,13 @@ function Demo(){
             <iframe width="450" height="500" title="puppy-prowl" id="inlineFrameExample" src="https://www.youtube.com/embed/9LWAuwXDsr0"></iframe>
           </div>
           <div>
-            <iframe width="450" height="500" className="videos" id="inlineFrameExample" title="puppy-prowl2" src="https://www.youtube.com/embed/9LWAuwXDsr0"></iframe>
+            <iframe width="450" height="500" className="videos" id="inlineFrameExample" title="placeholder1" src="https://www.youtube.com/embed/9LWAuwXDsr0"></iframe>
           </div>  
           <div>
-            <iframe width="450" height="500" className="videos" id="inlineFrameExample" title="puppy-prowl3" src="https://www.youtube.com/embed/9LWAuwXDsr0"></iframe>
+            <iframe width="450" height="500" className="videos" id="inlineFrameExample" title="placeholder2" src="https://www.youtube.com/embed/9LWAuwXDsr0"></iframe>
           </div>
         </Carousel>
-        </div>
+        </div> 
     </div>
   ) 
 }
