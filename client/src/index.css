@@ -109,8 +109,8 @@ code {
 .about-container{
   display: flex;
   flex-direction: row;
-  padding: 140px;
-  padding-block: 14rem;
+  /* padding: 10px; */
+  padding-block: 16rem;
   color: rgba(0, 0, 0, 0.934);
   background-color: rgb(167,83,122,0.4);
   font-size: 14pt;
@@ -118,17 +118,20 @@ code {
 }
 .abt-head-container{
   max-width: 300px;
+  min-width: 300px;
   padding-left: 310px;
   padding-right: 50px;
 }
 .about-header{
+  padding-top: 25px;
   text-align: center;
   font-family:'Bodoni Moda', serif;
 }
 .about-me{
   text-align: left;
   max-width: 550px;
-  margin-top: -2%;
+  min-width: 550px;
+  /* margin-top: -2%; */
 }
 .span{
   font-size: 44pt;
