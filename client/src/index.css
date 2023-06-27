@@ -2,6 +2,7 @@
   --green: rgb(130, 150, 75);
   --brown: rgb(101, 83, 59);
   --pink:  rgb(167,83,122,0.4);
+  --blue: rgb(89,183,243);
 }
 
 
@@ -140,7 +141,7 @@ code {
   margin-bottom: 20px;
   margin-block: 20px;
 }
-/* have to fix this for different computer screen sizes! */
+
 .skills{
   display: flex;
   flex-direction: row;
@@ -151,6 +152,7 @@ code {
   align-content: space-evenly;
   padding-inline: 435px;
   max-width: 740px;
+  min-width: 740px;
   max-height: 800px;
   background-image: url("./components/images/paper.webp");
   background-repeat: no-repeat;
