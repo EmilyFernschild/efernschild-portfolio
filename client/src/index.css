@@ -271,19 +271,31 @@ code {
   align-items: center;
   background-color: var(--pink);
 }
+.click-text,
 .contact-text{
   text-align: center;
   padding-left: 8rem;
   margin: 0%;
   color:rgb(50, 50, 50);
 }
+.click-me{
+  padding-left: 0;
+  padding-right: 7rem;
+}
+.click-me,
 .contact-me{
   font-size: 40pt;
   font-family: 'WindSong', cursive;
   margin: 0%;
 }
 .email{
-  margin:0%;
+  margin: 1%;
+  padding-bottom: -1rem;
+  padding-left: 0.8rem;
+  font-size: 13pt;
+  font-family: 'ubuntu';
+  letter-spacing: 1pt;
+
 }
 .contact-links{
   flex-direction: row;
