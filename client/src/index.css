@@ -69,6 +69,7 @@ code {
 }
 .header{
   position: sticky;
+  z-index: 1;
   top: 0;
 }
 .navbar-fix{
@@ -202,6 +203,7 @@ code {
   margin-left: 230px;
   margin-block: 200px;
   max-width: 600px;
+  min-width: 600px;
 }
 .demo-intro,
 .more-demo{
@@ -228,6 +230,8 @@ code {
   margin-left: 3rem;
   margin-block: -4.5rem;
 }
+/* something wrong with video its slightly offset */
+
 .carousel{
   /* flex-direction: column; */
   /* display: block; */
@@ -237,11 +241,12 @@ code {
 }
 #inlineFrameExample {
   width: 100%;
-  max-width: 890px;
+  max-width: 900px;
+  min-width: 600px;
   margin-left: 1rem;
 }
 .carousel.carousel-slider{
-  max-width: 900px !important;
+  max-width: 910px !important;
 }
 .carousel .control-dots{
   margin-bottom: 2rem !important;
